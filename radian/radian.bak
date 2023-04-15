@@ -1,0 +1,17 @@
+package main
+
+import "math"
+import "fmt"
+
+func main() {
+	// вычисление радиана через градус, где радиан равен градусы деленные на 180 и умноженные на пи
+	var gradus float64 = 35
+	var rad float64
+	rad = Rad(gradus)
+	fmt.Print(rad)
+}
+
+func Rad(grad float64) float64 {
+
+	return ((grad / 180) * math.Pi)
+}
