@@ -33,6 +33,8 @@ func main() {
 	d = D(a, b, c)
 	fmt.Print(d)
 }
+
+// primer ismineniya
 func D(a float64, b float64, c float64) float64 {
 	return math.Sqrt(a * b * c)
 }
